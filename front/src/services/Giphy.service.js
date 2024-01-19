@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://api.giphy.com/v1/gifs/search?api_key=SECRET_KEY';
+const URL = 'https://api.giphy.com/v1/gifs/search?api_key=pLURtkhVrUXr3KG25Gy5IvzziV5OrZGa';
 
 const instance = axios.create({
   baseURL: URL,

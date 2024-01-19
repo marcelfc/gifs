@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "build": "npx tsc",
     "start": "node dist/index.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q src/app.ts\""
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q src/infra/app.ts\""
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "@swc/cli": "^0.1.55",
     "@swc/core": "^1.2.148",
     "@swc/jest": "^0.2.20",
+    "@types/cors": "^2.8.14",
     "@types/jest": "^27.4.1",
     "@types/pg": "^8.10.3",
     "@types/supertest": "^2.0.14",
@@ -30,6 +31,7 @@
   },
   "dependencies": {
     "@types/express": "^4.17.18",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "pg": "^8.11.3",
